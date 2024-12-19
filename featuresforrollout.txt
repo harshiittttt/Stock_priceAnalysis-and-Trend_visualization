@@ -1,0 +1,27 @@
+Here are the features we are going to roll out in out final production of this project
+1. Stock_data_fetching
+  we will use yahoo y finance library that will the fetch the stock historical data using requests library
+  Data we will be fetching -
+  Stock_open = the stock open refers to price of the stock at the beginning of the trading day
+  Stock_high = the stock open refers to highest price of the stock in an specific time period such as intraday
+  Stock_low = can be understood from above
+  Stock_close= can be understood form above
+  Volume = the total shares of that stock traded on that day
+  Adj. close_price= The adjusted close price is the closing price of a stock, but it has been adjusted for events such as stock splits, dividends, or rights offerings.
+  User_input = user will be able to input the ticker(NASDAQ SYMBOL) for that particular stock he/she wants to see the historical data
+  Date_fetching = user will be able to set the time period for which he wants to fetch historical data.
+2.Data Preprocessing and Calculations:
+  Feature: Data cleaning and manipulation using pandas(will learn the library first from free code camp).
+  Tasks:
+  Handle missing data points (fill or drop missing values).
+  Convert date columns into appropriate formats.
+  Calculate technical indicators:
+  Simple Moving Average (SMA)
+  Exponential Moving Average (EMA)
+  Moving Average Convergence Divergence (MACD)
+  Relative Strength Index (RSI)
+  Bollinger Bands
+  Volume Weighted Average Price (VWAP)
+  Optionally: Add advanced indicators like the On-Balance Volume (OBV).
+ 
+  now what is simple moving average?
